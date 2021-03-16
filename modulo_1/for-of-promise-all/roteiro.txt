@@ -1,0 +1,24 @@
+Roteiro - utilização de for ... of e Promise.all
+================================================
+
+(x) Back End
+   (x) Explicar backend-bands
+   (x) Explicar backend-members
+
+() Front End
+   () Mostrar HTML
+   () Mostrar JavaScript
+      () Função start()
+
+      () Função getDreamTheaterAsyncForEach(),
+         mostrando que a ordem dos dados varia
+         a cada refresh
+
+      () Função getDreamTheaterForOf(), mostrando
+         que a ordem dos dados é sempre mantida
+      () Mostrar alternativa para obtenção de index
+
+      () Função testarPromiseAll()
+      () Explicar a necessidade de isolar a criação
+         e retorno de Promises em funções
+      () Mostrar a diferença no tempo de execução

@@ -1,0 +1,44 @@
+{
+  "members": [
+    {
+      "id": "m1",
+      "bandId": "b1",
+      "name": "Alex Lifeson"
+    },
+    {
+      "id": "m2",
+      "bandId": "b1",
+      "name": "Geddy Lee"
+    },
+    {
+      "id": "m3",
+      "bandId": "b1",
+      "name": "Neil Peart"
+    },
+    {
+      "id": "m4",
+      "bandId": "b2",
+      "name": "James LaBrie"
+    },
+    {
+      "id": "m5",
+      "bandId": "b2",
+      "name": "John Myung"
+    },
+    {
+      "id": "m6",
+      "bandId": "b2",
+      "name": "John Petrucci"
+    },
+    {
+      "id": "m7",
+      "bandId": "b2",
+      "name": "Jordan Rudess"
+    },
+    {
+      "id": "m8",
+      "bandId": "b2",
+      "name": "Mike Mangini"
+    }
+  ]
+}

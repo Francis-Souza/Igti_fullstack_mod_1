@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Módulo 1 - IGTI</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/materialize.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="cabecalho"></div>
+        <div class="container_menu">
+          <form>
+            <input type="button" class="efeito efeito_1" id="button_trabalho_modulo_1" name="trabalho_1" value="Trabalho Módulo 1"/>
+            <input type="button" class="efeito efeito_1" id="button_desafio_1"         name="desafio_1"  value="Desafio Módulo 1" />
+          </form>
+        </div>
+      </header>
+
+      <div class="trabalho_modulo_1">
+        <div class="trabalho">
+          <h1 class="sistema">Números por Extenso</h1>
+        </div>
+        <div class="container_dados">
+          <form>
+            <span>Escolha um número entre 0 e 999:</span>
+            <br /><input type="range" id="number" value="0" min="0" max="999" class="dados"/><br/>
+
+            <span>Número Atual:</span>
+            <br /><input type="text" id="number_selected" class="dados" /><br />
+
+            <span>Número por Extenso:</span>
+            <br /><input type="text" id="numero_in_full" class="dados" />
+          </form>
+        </div>
+        <div>
+          <form id="close">
+            <input type="submit" id="botao_close" class="efeito efeito_1" value="Fechar"/>
+          </form>
+        </div>
+      </div>
+
+      <div class="container_desafio">
+        <div class="desafio">
+          <h1 class="sistema_2">Pesquisa de Usuários</h1>
+        </div>
+        <div class="container_busca">
+            <input
+              type="text" class="form-control" placeholder="Entre com o nome do usuário aqui..." required/>
+            <button class="btn btn-default" type="button">Buscar</button>
+        </div>
+
+        <div class="usuarios" id="resultados">
+          <span> Usuários encontrados :  <input type="text" class="number_usuarios" disabled= "true"></span>             
+        </div>       
+        
+        <div class="estatistica">
+          <h6 class="titleStat"> Estatísticas</h6>
+          <ul>
+            <span>Sexo Masculino :<div class="totalSexoMasculino"></div></span>
+            <span>Sexo Feminino :<div class="totalSexoFeminino"></div></span>
+            <span>Soma das Idades :<div class="somaIdades"></div></span>
+            <span>Média de Idades :<div class="mediaIdades"></div></span>          
+          </ul>
+        </div>
+
+         <div class="usuarios_encontrados" ></div>      
+    
+        <div>
+          <form id="close">
+            <input type="submit" id="botao_close_usuarios" class="efeito efeito_1 " value="Fechar"/>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/materialize.js"></script>
+  </body>
+</html>

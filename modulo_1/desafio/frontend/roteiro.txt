@@ -1,0 +1,8 @@
+Desafio Full Stack
+==================
+
+(x) Mostrar backend
+(x) Mostrar HTML
+() Mostrar JavaScript
+   (x) Mostrar start() + detalhes
+   () Mostrar handles + detalhes
