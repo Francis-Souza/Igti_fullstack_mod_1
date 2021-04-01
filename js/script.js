@@ -391,7 +391,7 @@ $(function () {
       });
     }
 
-    function doFilter() {
+    function doFilter(nome) {
       const procuraNomes = allUsers.filter((person) => {
         let usuarios = person.nome.concat(" " + person.sobreNome).toUpperCase();
         return usuarios.includes(nome);
