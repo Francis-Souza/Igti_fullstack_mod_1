@@ -1,7 +1,12 @@
 
 <h2>Projeto BootCamp_fullstack_Igti_mod_I_e_II</h2>
 
+<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge"/>
+
+<h2>DESCRIÇÃO DO PROJETO</h2>
+
 Exercícios do Módulo I e II - Bootcamp FullStack IGTI - 2020
+
 
 Durante a sessão, serão desenvolvidos e abordados os seguintes tópicos:
 
